@@ -4,5 +4,9 @@
   "main": "index.js",
   "repository": "https://github.com/sebastiantf/ts-template.git",
   "author": "Sebastian T F <sebastian.tharakan97@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^18.7.16",
+    "typescript": "^4.8.3"
+  }
 }
