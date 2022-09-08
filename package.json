@@ -1,0 +1,8 @@
+{
+  "name": "ts-template",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/sebastiantf/ts-template.git",
+  "author": "Sebastian T F <sebastian.tharakan97@gmail.com>",
+  "license": "MIT"
+}
