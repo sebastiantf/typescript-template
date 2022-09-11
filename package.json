@@ -5,6 +5,9 @@
   "repository": "https://github.com/sebastiantf/ts-template.git",
   "author": "Sebastian T F <sebastian.tharakan97@gmail.com>",
   "license": "MIT",
+  "scripts": {
+    "build": "tsc"
+  },
   "devDependencies": {
     "@types/node": "^18.7.16",
     "ts-node": "^10.9.1",
