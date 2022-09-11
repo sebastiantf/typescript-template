@@ -8,6 +8,7 @@
   "scripts": {
     "build": "tsc",
     "lint": "eslint . --ext .ts",
+    "prettier": "prettier --config .prettierrc 'src/**/*.ts' --write",
     "start": "yarn build && node dist/index.js"
   },
   "devDependencies": {
