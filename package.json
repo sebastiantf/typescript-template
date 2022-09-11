@@ -13,7 +13,8 @@
     "start": "yarn build && node dist/index.js",
     "postinstall": "husky install",
     "prepack": "pinst --disable",
-    "postpack": "pinst --enable"
+    "postpack": "pinst --enable",
+    "test": "jest"
   },
   "devDependencies": {
     "@commitlint/cli": "^17.1.2",
