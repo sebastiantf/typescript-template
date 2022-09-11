@@ -6,7 +6,8 @@
   "author": "Sebastian T F <sebastian.tharakan97@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "build": "tsc"
+    "build": "tsc",
+    "start": "yarn build && node dist/index.js"
   },
   "devDependencies": {
     "@types/node": "^18.7.16",
