@@ -1,1 +1,3 @@
-console.log('Hello World');
+import { Greeter } from './lib/greeter';
+
+console.log(Greeter('Joe'));
