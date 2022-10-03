@@ -10,3 +10,7 @@
 - [commitlint](https://github.com/conventional-changelog/commitlint): Lint commit messages
 - [commitizen](https://github.com/commitizen/cz-cli): Prompt commit message using [cz-conventional-changelog](https://github.com/commitizen/cz-conventional-changelog)
 - [Jest](https://github.com/facebook/jest): Testing Framework
+
+## Minimal
+
+A minimal version can be found in the [`minimal`](https://github.com/sebastiantf/typescript-template/tree/minimal) branch
