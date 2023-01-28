@@ -8,6 +8,7 @@
   "scripts": {
     "build": "yarn clean; tsc",
     "clean": "rm -rf dist",
+    "dev": "yarn ts-node src/index.ts",
     "start": "yarn build && node dist/index.js"
   },
   "devDependencies": {
