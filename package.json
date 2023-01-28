@@ -6,7 +6,8 @@
   "author": "Sebastian T F <sebastian.tharakan97@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "build": "tsc",
+    "build": "yarn clean; tsc",
+    "clean": "rm -rf dist",
     "commit": "git-cz",
     "lint": "eslint . --ext .ts",
     "prettier": "prettier --config .prettierrc 'src/**/*.ts' --write",
