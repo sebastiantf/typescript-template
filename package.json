@@ -6,7 +6,8 @@
   "author": "Sebastian T F <sebastian.tharakan97@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "build": "tsc",
+    "build": "yarn clean; tsc",
+    "clean": "rm -rf dist",
     "start": "yarn build && node dist/index.js"
   },
   "devDependencies": {
