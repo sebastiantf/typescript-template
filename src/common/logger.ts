@@ -10,5 +10,5 @@ export const logger = winston.createLogger({
       (info) => `${info.timestamp}::${info.level}: ${info.message}`
     )
   ),
-  transports: [new winston.transports.Console()]
+  transports: [new winston.transports.Console()],
 });
