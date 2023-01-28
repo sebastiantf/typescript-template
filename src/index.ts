@@ -1,3 +1,4 @@
+import { logger } from './common/logger';
 import { Greeter } from './lib/greeter';
 
-console.log(Greeter('Joe'));
+logger.info(Greeter('Joe'));
