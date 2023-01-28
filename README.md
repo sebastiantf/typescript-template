@@ -15,3 +15,7 @@
 ## Minimal
 
 A minimal version can be found in the [`minimal`](https://github.com/sebastiantf/typescript-template/tree/minimal) branch
+
+## Minimal with Logger
+
+A minimal version with winston logger can be found in the [`minimal-logger`](https://github.com/sebastiantf/typescript-template/tree/minimal-logger) branch
