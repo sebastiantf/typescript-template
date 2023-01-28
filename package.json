@@ -9,6 +9,7 @@
     "build": "yarn clean; tsc",
     "clean": "rm -rf dist",
     "commit": "git-cz",
+    "dev": "yarn ts-node src/index.ts",
     "lint": "eslint . --ext .ts",
     "prettier": "prettier --config .prettierrc 'src/**/*.ts' --write",
     "start": "yarn build && node dist/index.js",
