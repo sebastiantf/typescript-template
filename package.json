@@ -1,7 +1,8 @@
 {
   "name": "typescript-template",
   "version": "1.0.0",
-  "main": "index.js",
+  "source": "src/index.ts",
+  "main": "dist/index.js",
   "repository": "https://github.com/sebastiantf/typescript-template.git",
   "author": "Sebastian T F <sebastian.tharakan97@gmail.com>",
   "license": "MIT",
