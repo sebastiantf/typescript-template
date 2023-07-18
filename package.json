@@ -7,7 +7,7 @@
   "author": "Sebastian T F <sebastian.tharakan97@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "build": "yarn clean; tsc",
+    "build": "yarn clean; tsc -p tsconfig.prod.json",
     "clean": "rm -rf dist",
     "commit": "git-cz",
     "dev": "yarn ts-node src/index.ts",
