@@ -11,6 +11,7 @@
 - [commitizen](https://github.com/commitizen/cz-cli): Prompt commit message using [cz-conventional-changelog](https://github.com/commitizen/cz-conventional-changelog)
 - [Jest](https://github.com/facebook/jest): Testing Framework
 - [winston](https://github.com/winstonjs/winston): Simple and universal logging library with support for multiple transports
+- [dotenv](https://github.com/motdotla/dotenv): Loads environment variables from .env for nodejs projects.
 
 ## Minimal
 
