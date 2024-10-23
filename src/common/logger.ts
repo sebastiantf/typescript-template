@@ -1,6 +1,7 @@
-import * as winston from 'winston';
 import * as util from 'util';
+import * as winston from 'winston';
 
+/* eslint-disable */
 export const logger = winston.createLogger({
   level: 'info',
   format: winston.format.combine(
